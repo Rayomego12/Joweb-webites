@@ -187,10 +187,11 @@ body{
 .footer-links a{
 	color:var(--purple-3);
 	text-decoration:none;
-	padding:0.18rem 0;
+	padding:0.18rem 0.4rem;
 	border-radius:6px;
 	transition:color .15s, text-decoration .15s, background .15s;
 	position:relative;
+	display:inline-block;
 }
 .footer-links a:hover, .footer-links a:focus{
 	color:var(--purple-2);
